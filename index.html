@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculator Hide Photo Video</title>
+<meta name="description" content="A calculator that hides your private photos, videos, files and notes behind a PIN.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #f6f8f8; --card: #ffffff; --text: #14201f; --muted: #52605f; --accent: #0b6aa4; --line: #dde4e3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #101515; --card: #172021; --text: #e6eeed; --muted: #9aa9a8; --accent: #6cc3d5; --line: #263233; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 32px; }
+  header { display: flex; gap: 20px; align-items: center; margin-bottom: 28px; }
+  header img { width: 88px; height: 88px; border-radius: 20px; flex: none; }
+  h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 6px; }
+  .tagline { color: var(--muted); margin: 0; }
+  .play { display: inline-block; margin: 8px 0 32px; padding: 12px 22px; border-radius: 12px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+  @media (prefers-color-scheme: dark) { .play { color: #0b1516; } }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+  li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+  li strong { display: block; }
+  li span { color: var(--muted); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="App icon">
+    <div>
+      <h1>Calculator Hide Photo Video</h1>
+      <p class="tagline">A working calculator that keeps your private photos, videos, files and notes hidden behind a PIN.</p>
+    </div>
+  </header>
+
+  <a class="play" href="https://play.google.com/store/apps/details?id=com.droidnova.secretcalculator">Get it on Google Play</a>
+
+  <ul>
+    <li><strong>Looks like a normal calculator</strong><span>Type your PIN and tap = to open your vault. Anything else is just a calculation.</span></li>
+    <li><strong>Hide photos, videos, files and notes</strong><span>Everything you hide is stored on your phone, in a folder only the app can open.</span></li>
+    <li><strong>Fake vault</strong><span>A second PIN opens a separate vault with harmless content.</span></li>
+    <li><strong>Encrypted backups</strong><span>Back up your vault to a file or to your own Google Drive, locked so only you can restore it.</span></li>
+  </ul>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <span>Contact: <a href="mailto:ashimgid@gmail.com">ashimgid@gmail.com</a></span>
+  </footer>
+</main>
+</body>
+</html>
